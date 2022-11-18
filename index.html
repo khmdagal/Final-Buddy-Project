@@ -1,34 +1,53 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
-<link href="style.css"  rel="stylesheet">
-</head>
-<body class ="center-container">
-<header>
-  <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNFME-84IpYfSQkKXHVoRQRilIqUYW5GrEQ&usqp=CAU" alt="logo">
-<nav>
-  <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="about_us.html">About Us</a></li>
-    <li><a href="#">Services</a></li>
-  </ul>
-</nav>
-</header>
-<main class ="content">
-  <h1 class="title">Cost energy Saving Web</h1>
-  <p class="para-one">The cost of energy has been on a steady increase over the last few decades and with the recent 'Energy Crisis' dominating the UK headlines, it's not showing any sign of slowing. <br>Knowing how much energy the appliances in your house use is certainly a good start, and when paired with a smart meter, you can easily identify what is consuming the most amount of electricity.
-       </p>
-  <div>
-    <img src="/images/lamp.jpg" alt="lamp">
-  </div>
+<link href="style.css" rel="stylesheet">
 
-<div class="display">
-      <input type="number" id="lights_quantity" />
-      <select id="select_id"></select>
+</head>
+
+<body class="center-container">
+  <header>
+    <img class="logo"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNFME-84IpYfSQkKXHVoRQRilIqUYW5GrEQ&usqp=CAU"
+      alt="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <h1 class="title">Cost energy Saving Web</h1>
+    <p class="para-one">The cost of energy has been on a steady increase over the last few decades and with the recent
+      'Energy Crisis' dominating the UK headlines, it's not showing any sign of slowing. <br>Knowing how much energy the
+      appliances in your house use is certainly a good start, and when paired with a smart meter, you can easily
+      identify what is consuming the most amount of electricity.
+    </p>
+    <div>
+      <img src="/images/lamp.jpg" alt="lamp">
+    </div>
+
+    <div class="display">
+      <div>
+        <label for="number">Number of lights in your house</label>
+        <input type="number" id="lights_quantity" />
+      </div>
+      <div>
+        <label for="select_id">Type of lights</label>
+        <select id="select_id">
+          <option value="">-- Types of lights --</option>
+        </select>
+      </div>
+
+      <select id="day_light_id">
+        <option value="">-- Day-lights --</option>
+      </select>
 
       <section id="display_section">
         <section class="image-container">
-          <img src="" id="image" />
+          <img src="/images/LED-bulbs.jpg" id="image" />
         </section>
 
         <div class="watts-prices-section">
@@ -38,32 +57,79 @@
             in 2022 was<strong>18.9p/kWh</strong>. <span>30 Sept 2022</span>
           </p>
           <span id="span_display_watt"></span>
+          <table>
+            <thead>
+              <tr>
+                <th>Season</th>
+                <th>Per day saving </th>
+                <th> Total Saving </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Winter</td>
+                <td id="Winter_PerDay"> </td>
+                <td id="Winter_total"> </td>
+              </tr>
+
+              <tr>
+                <td>Spring</td>
+                <td id="Spring_PerDay"> </td>
+                <td id="Spring_total"> </td>
+              </tr>
+
+              <tr>
+                <td>Summar</td>
+                <td id="Summar_PerDay"> </td>
+                <td id="Summar_total"> </td>
+              </tr>
+
+              <tr>
+                <td>Autumn</td>
+                <td id="Autumn_PerDay"> </td>
+                <td id="Autumn_total"> </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Average saving during year daylight hours</td>
+                <td></td>
+                <td id="year_saving"></td>
+              </tr>
+
+            </tfoot>
+          </table>
         </div>
       </section>
     </div>
 
 
-  <div class="content-p">
-  <p>With two thirds (66%) of adults in Britain reporting their cost of living increased in the past month, rising energy prices are a growing factor in the squeeze on household budgets.</p>
-  <p>With the cost of living on the rise, there's never been a better time to cut your energy bills and be kind to the planet. We've put together some tips to help you and your family reduce your energy use in every room of your home. 
-   the cost of living rises for households across Great Britain, growing energy prices disproportionately impact those on lower incomes.  </p>
-  </div>
-<section class="list-container">
-  <p class = "title-list">Top tips to cut energy bills</p>
-<ul>
-  <li>Turn down your thermostat;</li>
-  <li>Turn the heating flow temperature down;</li>
-  <li>Don't heat empty rooms;</li>
-  <li>Run your heating only when you are at home;</li>
-  <li>Draught proofing;</li>
-  <li>Keep the heat in;</li>
-</ul>
-</section>
-<button type="button">Suscribe</button>
-<a class="cta" href="#"><button>Contact</button></a>
-</main>
-<footer class="footer">
-  <script src="./script.js"></script>
-</footer>
+    <div class="content-p">
+      <p>With two thirds (66%) of adults in Britain reporting their cost of living increased in the past month, rising
+        energy prices are a growing factor in the squeeze on household budgets.</p>
+      <p>With the cost of living on the rise, there's never been a better time to cut your energy bills and be kind to
+        the planet. We've put together some tips to help you and your family reduce your energy use in every room of
+        your home.
+        the cost of living rises for households across Great Britain, growing energy prices disproportionately impact
+        those on lower incomes.  </p>
+    </div>
+    <section class="list-container">
+      <p class="title-list">Top tips to cut energy bills</p>
+      <ul>
+        <li>Turn down your thermostat;</li>
+        <li>Turn the heating flow temperature down;</li>
+        <li>Don't heat empty rooms;</li>
+        <li>Run your heating only when you are at home;</li>
+        <li>Draught proofing;</li>
+        <li>Keep the heat in;</li>
+      </ul>
+    </section>
+    <button type="button">Suscribe</button>
+    <a class="cta" href="#"><button>Contact</button></a>
+  </main>
+  <footer class="footer">
+    <script src="./script.js"></script>
+  </footer>
 </body>
+
 </html>
