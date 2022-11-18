@@ -109,6 +109,8 @@ select.addEventListener("change", (e) => {
   const span = document.querySelector("#span_display_watt");
   const input = document.querySelector("#lights_quantity");
   const image = document.querySelector("#image");
+  const table = document.querySelector("#table_id");
+  table.style.display = "block";
 
   // call table elements
   const winterPerDay = document.querySelector("#Winter_PerDay");
