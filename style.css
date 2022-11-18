@@ -12,6 +12,11 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial;
 }
+.logo {
+  display: flex;
+  width: 15%;
+  padding: 0;
+}
 .center-container {
   margin: auto;
   width: 80%;
@@ -62,16 +67,82 @@ body {
   color: #f45d48;
 }
 /*---------- end------------------*/
-img {
-  border-radius: 20px;
+.para-one {
+  margin-top: 50px;
+  background-color: #fffffe;
+  font-size: 25px;
+  padding: 20px;
+  color: #222525;
+  font: 1.5em sans-serif;
+  border-radius: 10px;
   justify-content: center;
-  justify-content: flex-end;
-  width: 100%;
+  padding: 30px 30px 30px 30px;
+}
+.image-central {
+  justify-content: center;
+  text-align: center;
+  border: radius 20px;
+  
+}
+
+img {
+  width: 40vw;
+  border-radius: 20px;
   padding-top: 50px;
+  
 }
 
 #image {
-  width: 300px;
+  width: 20vw;
+}
+
+/* ---- script*/
+#table_id {
+  display: none;
+  border: double 5px;
+  text-align: left;
+  background-color: honeydew;
+}
+
+thead {
+  border: solid 2px;
+  background-color: #078080;
+  color: white;
+}
+
+tr {
+  border: solid 2px;
+}
+
+.display {
+  background-color: #fffffe;
+  margin-top: 50px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.image-container {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 50px;
+
+}
+#price-info {
+  background-color: #fffffe;
+  justify-content: center;
+  text-align: left;
+  font: 1.5em sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+}
+#lights_quantity {
+  font: 1.5em sans-serif;
+}
+input {
+  justify-content: left;
+  text-align: left;
+  color: #f45d48;
 }
 
 /* ---------- test main-----------*/
@@ -84,6 +155,7 @@ img {
   font: 1.5em sans-serif;
   border-radius: 10px;
   justify-content: center;
+  padding: 30px 30px 30px 30px;
 }
 p {
   margin: 20px;
