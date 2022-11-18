@@ -3,7 +3,7 @@ function lightsfunction() {
     {
       name: "Incandescent",
       kWh: 0.1,
-      cost: 0.28,
+      cost: 0.028,
 
       image:
         "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/TSCAN25BCCLEAR240CR.jpg",
@@ -11,7 +11,7 @@ function lightsfunction() {
     {
       name: "Halogen",
       kWh: 0.12,
-      cost: 0.28,
+      cost: 0.028,
 
       image:
         "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/HALOCAN20SESCLR.jpg",
@@ -19,7 +19,7 @@ function lightsfunction() {
     {
       name: "Compact_Fluorescent",
       kWh: 0.1,
-      cost: 0.28,
+      cost: 0.028,
 
       image:
         "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/AMBIENCE11SBCCAN.jpg",
@@ -27,7 +27,7 @@ function lightsfunction() {
     {
       name: "Traditional LED bulb",
       kWh: 0.4,
-      cost: 0.28,
+      cost: 0.028,
 
       image:
         "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/MASTERLEDCANDLE4SESDTF.jpg",
@@ -35,7 +35,7 @@ function lightsfunction() {
     {
       name: "Filament_LED",
       kWh: 0.1,
-      cost: 0.28,
+      cost: 0.028,
       image:
         "https://www.assets.signify.com/is/image/PhilipsLighting/22e1aa6f994240808894a55d017da7c5?clipPathE=legacy_path&$pnglarge$",
     },
