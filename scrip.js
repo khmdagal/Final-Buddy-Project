@@ -37,32 +37,32 @@ const bulbs = [
   {
     name: "Incandescent",
     watts: 60,
-    imange:
-      "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/TSCAN25BCCLEAR240CR.jpg",
+    imange: "imagesincandescent.jpeg",
+   
   },
   {
     name: "Halogen",
     watts: 90,
-    imange:
-      "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/HALOCAN20SESCLR.jpg",
+    imange: "imageshalogen.jpeg",
+    
   },
   {
     name: "Compact_Fluorescent",
     watts: 65,
-    imange:
-      "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/AMBIENCE11SBCCAN.jpg",
+    imange: "imagescompact_fluorescent.jpeg",
+    
   },
   {
     name: "LED",
     watts: 70,
-    imange:
-      "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/MASTERLEDCANDLE4SESDTF.jpg",
+    imange: "imagesled.jpeg",
+   
   },
   {
     name: "Filament_LED",
     watts: 75,
-    image:
-      "https://www.assets.signify.com/is/image/PhilipsLighting/22e1aa6f994240808894a55d017da7c5?clipPathE=legacy_path&$pnglarge$",
+    image: "images\filament_led.jpeg",
+    
   },
 ];
 
