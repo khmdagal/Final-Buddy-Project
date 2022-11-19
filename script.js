@@ -2,7 +2,7 @@ function lightsfunction() {
   return [
     {
       name: "Incandescent",
-      kWh: 0.1,
+      kWh: 0.01,
       cost: 0.028,
 
       image:
@@ -10,7 +10,9 @@ function lightsfunction() {
     },
     {
       name: "Halogen",
-      kWh: 0.12,
+
+      kWh: 0.012,
+
       cost: 0.028,
 
       image:
@@ -18,7 +20,9 @@ function lightsfunction() {
     },
     {
       name: "Compact_Fluorescent",
-      kWh: 0.1,
+
+      kWh: 0.01,
+
       cost: 0.028,
 
       image:
@@ -26,15 +30,14 @@ function lightsfunction() {
     },
     {
       name: "Traditional LED bulb",
-      kWh: 0.4,
+      kWh: 0.04,
       cost: 0.028,
-
       image:
         "https://www.thelightbulb.co.uk/wp-content/uploads/2020/01/MASTERLEDCANDLE4SESDTF.jpg",
     },
     {
       name: "Filament_LED",
-      kWh: 0.1,
+      kWh: 0.01,
       cost: 0.028,
       image:
         "https://www.assets.signify.com/is/image/PhilipsLighting/22e1aa6f994240808894a55d017da7c5?clipPathE=legacy_path&$pnglarge$",
