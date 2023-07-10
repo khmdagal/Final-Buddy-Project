@@ -9,11 +9,12 @@ body {
   background-color: #f8f5f2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial;
-  padding: 2vw;
+  padding: 1vw;
 }
 
 header {
   display: flex;
+  background-color: #00143c;
   justify-content: space-between;
 }
 
@@ -23,7 +24,93 @@ header {
   list-style: none;
 }
 
+.nav-links li a {
+  color: white;
+}
+
 .logo {
   width: 15%;
   border-radius: 50%;
+}
+
+/* -- Title */
+.title {
+  background-color: #fffffe;
+  text-align: center;
+  font: 20px sans-serif;
+  border-radius: 10px;
+  color: #f45d48;
+}
+.para-one,
+.content-p {
+  margin-top: 3px;
+  background-color: #fffffe;
+  color: #222525;
+  font: 12px sans-serif;
+  border-radius: 10px;
+  margin: 5px;
+}
+h4 {
+  font-size: smaller;
+}
+.main-image {
+  width: 90%;
+  align-items: center;
+  border-radius: 10%;
+  margin: 6px;
+}
+
+#image {
+  width: 20vw;
+}
+
+/* ---- script*/
+#table_id {
+  display: none;
+  border: double 5px;
+  text-align: left;
+  background-color: honeydew;
+}
+
+thead {
+  border: solid 2px;
+  background-color: #078080;
+  color: white;
+}
+
+tr {
+  border: solid 2px;
+}
+
+.display {
+  background-color: #fffffe;
+  margin-top: 50px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+#price-info {
+  background-color: #fffffe;
+  justify-content: center;
+  text-align: left;
+  font: sans-serif;
+  padding-bottom: 20px;
+}
+
+input {
+  justify-content: left;
+  text-align: left;
+  color: #f45d48;
+}
+.list-container li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 10px;
+  color: white;
+}
+
+footer {
+  background-color: #00143c;
+  width: 100%;
+  height: fit-content;
 }
