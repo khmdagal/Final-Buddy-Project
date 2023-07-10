@@ -1,135 +1,146 @@
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>KSK System</title>
-<link href="style.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KSK System</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body class="center-container">
-  <header>
-    <img class="logo" src="./images/logo.jpg" alt="logo" />
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="aboutUs.html">About Us</a></li>
-        <li><a href="#">Services</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="content">
-    <h1 class="title">Cost energy Saving Web</h1>
-    <p class="para-one">The cost of energy has been on a steady increase over the last few decades and with the recent
-      'Energy Crisis' dominating the UK headlines, it's not showing any sign of slowing. <br>Knowing how much energy the
-      appliances in your house use is certainly a good start, and when paired with a smart meter, you can easily
-      identify what is consuming the most amount of electricity.
-    </p>
-    <div class="content-p">
-      <h4>Do you know how much it costs for each lamp you use in you house per our of use?</h4>
-      <h4>Do you know how much, d you could save just one hour you switched your light off? What about a day?, a week? a
-        year?</h4>
-        <div>
-      <img src="/images/lamp.jpg" alt="lamp">
-    </div>
-      <p>Our website is here to provide you with solutions and answers to your questions that you need to lower your
-        electricity bills </p>
-      <p>Our system different from other tools like smart meters because it lets you know the exact amount you use per
-        hour and that
-        enable you to avoid energy waste, adopt more energy-efficient measures and ultimately save the planet and your
-        pocket in the process.
+  <body class="center-container">
+    <header>
+      <img class="logo" src="./images/logo.jpg" alt="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <h1 class="title">Cost energy Saving Web</h1>
+      <p class="para-one">
+        The cost of energy has been on a steady increase over the last few
+        decades and with the recent 'Energy Crisis' dominating the UK headlines,
+        it's not showing any sign of slowing. <br />Knowing how much energy the
+        appliances in your house use is certainly a good start, and when paired
+        with a smart meter, you can easily identify what is consuming the most
+        amount of electricity.
       </p>
-    </div>
-
-    <div class="display">
-      <div>
-        <label for="number">Number of lights in your house</label>
-        <input type="number" id="lights_quantity" />
-      </div>
-      <div>
-        <label for="select_id">Type of lights</label>
-        <select id="select_id">
-          <option value="">-- Types of lights --</option>
-        </select>
-      </div>
-
-      <select id="day_light_id">
-        <option value="">-- Day-lights --</option>
-      </select>
-
-      <section id="display_section">
-        <section class="image-container">
-          <img src="/images/LED-bulbs.jpg" id="image" />
-        </section>
-
-        <div class="watts-prices-section">
-          <p id="price-info">
-            According to the Department for Business, Energy & Industrial
-            Strategy (BEIS), the average cost for standard electricity in the UK
-            in 2022 was<strong>18.9p/kWh</strong>. <span>30 Sept 2022</span>
-          </p>
-          <span id="span_display_watt"></span>
-          <table id="table_id">
-            <thead>
-              <tr>
-                <th>Season</th>
-                <th>Per day saving </th>
-                <th> Total Saving </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Winter</td>
-                <td id="Winter_PerDay"> </td>
-                <td id="Winter_total"> </td>
-              </tr>
-
-              <tr>
-                <td>Spring</td>
-                <td id="Spring_PerDay"> </td>
-                <td id="Spring_total"> </td>
-              </tr>
-
-              <tr>
-                <td>Summar</td>
-                <td id="Summar_PerDay"> </td>
-                <td id="Summar_total"> </td>
-              </tr>
-
-              <tr>
-                <td>Autumn</td>
-                <td id="Autumn_PerDay"> </td>
-                <td id="Autumn_total"> </td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td>Average saving during year daylight hours</td>
-                <td></td>
-                <td id="year_saving"></td>
-              </tr>
-
-            </tfoot>
-          </table>
+      <div class="content-p">
+        <h4>
+          Do you know how much it costs for each lamp you use in you house per
+          our of use?
+        </h4>
+        <h4>
+          Do you know how much, d you could save just one hour you switched your
+          light off? What about a day?, a week? a year?
+        </h4>
+        <div>
+          <img class="main-image" src="/images/lamp.jpg" alt="lamp" />
         </div>
+        <p>
+          Our website is here to provide you with solutions and answers to your
+          questions that you need to lower your electricity bills
+        </p>
+        <p>
+          Our system different from other tools like smart meters because it
+          lets you know the exact amount you use per hour and that enable you to
+          avoid energy waste, adopt more energy-efficient measures and
+          ultimately save the planet and your pocket in the process.
+        </p>
+      </div>
+
+      <div class="display">
+        <div>
+          <label for="number">Number of lights in your house</label>
+          <input type="number" id="lights_quantity" />
+        </div>
+        <div>
+          <label for="select_id">Type of lights</label>
+          <select id="select_id">
+            <option value="">-- Types of lights --</option>
+          </select>
+        </div>
+
+        <select id="day_light_id">
+          <option value="">-- Day-lights --</option>
+        </select>
+
+        <section id="display_section">
+          <section class="image-container">
+            <img src="/images/LED-bulbs.jpg" alt="led bulbs image" id="image" />
+          </section>
+
+          <div class="watts-prices-section">
+            <p id="price-info">
+              According to the Department for Business, Energy & Industrial
+              Strategy (BEIS), the average cost for standard electricity in the
+              UK in 2022 was<strong>18.9p/kWh</strong>.
+              <span>30 Sept 2022</span>
+            </p>
+            <span id="span_display_watt"></span>
+            <table id="table_id">
+              <thead>
+                <tr>
+                  <th>Season</th>
+                  <th>Per day saving</th>
+                  <th>Total Saving</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Winter</td>
+                  <td id="Winter_PerDay"></td>
+                  <td id="Winter_total"></td>
+                </tr>
+
+                <tr>
+                  <td>Spring</td>
+                  <td id="Spring_PerDay"></td>
+                  <td id="Spring_total"></td>
+                </tr>
+
+                <tr>
+                  <td>Summar</td>
+                  <td id="Summar_PerDay"></td>
+                  <td id="Summar_total"></td>
+                </tr>
+
+                <tr>
+                  <td>Autumn</td>
+                  <td id="Autumn_PerDay"></td>
+                  <td id="Autumn_total"></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Average saving during year daylight hours</td>
+                  <td></td>
+                  <td id="year_saving"></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <section class="list-container">
+        <p class="title-list">Top tips to cut energy bills</p>
+        <ul>
+          <li>Turn down your thermostat;</li>
+          <li>Turn the heating flow temperature down;</li>
+          <li>Don't heat empty rooms;</li>
+          <li>Run your heating only when you are at home;</li>
+          <li>Draught proofing;</li>
+          <li>Keep the heat in;</li>
+        </ul>
       </section>
-    </div>
-
-    <section class="list-container">
-      <p class="title-list">Top tips to cut energy bills</p>
-      <ul>
-        <li>Turn down your thermostat;</li>
-        <li>Turn the heating flow temperature down;</li>
-        <li>Don't heat empty rooms;</li>
-        <li>Run your heating only when you are at home;</li>
-        <li>Draught proofing;</li>
-        <li>Keep the heat in;</li>
-      </ul>
-    </section>
-    <button type="button">Subscribe</button>
-    <a class="cta" href="#"><button>Contact</button></a>
-  </main>
-  <footer class="footer">
-    <script src="./script.js"></script>
-  </footer>
-</body>
-
+      <button type="button">Subscribe</button>
+      <a class="cta" href="#"><button>Contact</button></a>
+    </main>
+    <footer class="footer">
+      <script src="./script.js"></script>
+    </footer>
+  </body>
 </html>
