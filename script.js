@@ -108,16 +108,6 @@ function createOptions(lights) {
   select.appendChild(options);
 }
 
-//------------ use this fuction to reduce the repetitive lines --------
-
-let dayHours = [8, 13, 16, 12]
-let totalDayHours = [720, 1196, 1472, 1092];
-
-function hoursCalculation(season, daHours, totalDayhours) {
-  const perDay = document.querySelector("#" + season + "_PerDay");
-  const total = document.querySelector("#" + season + "_total");
-}
-//--------------
 select.addEventListener("change", (e) => {
   const span = document.querySelector("#span_display_watt");
   const input = document.querySelector("#lights_quantity");
@@ -126,9 +116,6 @@ select.addEventListener("change", (e) => {
   table.style.display = "block";
 
   // call table elements
-
-  hoursCalculation(season, daHours, totalDayhours);
-  
   const winterPerDay = document.querySelector("#Winter_PerDay");
   const winterTotal = document.querySelector("#Winter_total");
 
@@ -148,7 +135,7 @@ select.addEventListener("change", (e) => {
   const autumnDayHour = 12;
 
   // totat day hours for each season
-  const winterTotalDayHours = 720; 
+  const winterTotalDayHours = 720;
   const springTotalDayHours = 1196;
   const summarTotalDayHours = 1472;
   const autumnTotalDayHours = 1092;
